@@ -12,6 +12,7 @@
 	},
 	"dependencies": {
 		"@next/third-parties": "^14.2.15",
+		"biome": "^0.3.3",
 		"buffer-image-size": "^0.6.4",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.0",
