@@ -29,6 +29,10 @@ const config = {
 				'fade-out': 'fadeOut 1s ease-in',
 				slide: 'slide var(--duration, 30s) linear infinite',
 				desktopSubMenu: 'desktopSubMenu 300ms ease-in-out forwards',
+				'card-hover': 'cardHover 300ms ease-out forwards',
+				'slide-up': 'slideUp 400ms ease-out forwards',
+				'slide-down': 'slideDown 400ms ease-out downwards',
+				'gradient-shine': 'gradientShine 2s linear infinite',
 			},
 			keyframes: {
 				fadeIn: {
@@ -46,6 +50,18 @@ const config = {
 					'0%': { opacity: '0', transform: 'translate(-50%,-10rem)' },
 					'50%': { opacity: '0', transform: 'translate(-50%,10rem)' },
 					'100%': { opacity: '1', transform: 'translate(-50%,14.5rem)' },
+				},
+				cardHover: {
+					'0%': { transform: 'translateY(0)' },
+					'100%': { transform: 'translateY(-8px)' },
+				},
+				slideUp: {
+					'0%': { transform: 'translateY(20px)', opacity: '0' },
+					'100%': { transform: 'translateY(0)', opacity: '1' },
+				},
+				gradientShine: {
+					'0%': { backgroundPosition: '200% 0' },
+					'100%': { backgroundPosition: '-200% 0' },
 				},
 			},
 		},
