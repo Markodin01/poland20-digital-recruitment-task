@@ -5,8 +5,6 @@ import Summit from '@/app/_components/summit/index.tsx';
 import MainLayout from '@/components/MainLayout';
 import Newsletter from '@/components/newsletter/Newsletter';
 
-export const runtime = 'edge';
-
 export default function Home() {
 	return (
 		<MainLayout heroSection={<HeroSection />}>
