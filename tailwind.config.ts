@@ -31,6 +31,7 @@ const config = {
 				desktopSubMenu: 'desktopSubMenu 300ms ease-in-out forwards',
 				'card-hover': 'cardHover 300ms ease-out forwards',
 				'slide-up': 'slideUp 400ms ease-out forwards',
+				'slide-down': 'slideDown 400ms ease-out downwards',
 				'gradient-shine': 'gradientShine 2s linear infinite',
 			},
 			keyframes: {
